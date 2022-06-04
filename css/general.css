@@ -1,0 +1,23 @@
+:root {
+  --backgroundColor: #272727;
+  --textColor: #fff;
+  --primaryColor: rgb(13, 138, 255);
+  --secondaryColor: rgb(171, 214, 255);
+  --randoColor1: rgb(0, 174, 255);
+  --randoColor2: rgb(0, 94, 255);
+}
+
+body {
+  background-color: var(--backgroundColor);
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/*# sourceMappingURL=general.css.map */

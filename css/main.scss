@@ -1,0 +1,129 @@
+.mainWrapper {
+    margin: 0 auto;
+
+    .headingContainer {
+        min-height: 60px;
+        background-color: var(--primaryColor);
+
+        
+        h2 {
+            color: var(--textColor);
+            text-transform: uppercase;
+            padding: 13px 10px;
+            text-align: center;
+        }
+    }
+
+    .gameContainer {
+        background-color: var(--secondaryColor);
+        position: relative;
+
+        .screen {
+            min-height: 120px;
+            display: flex;
+            flex-direction: column;
+
+            align-items: center;
+            justify-content: center;
+
+            #winner {
+                font-weight: bold;
+                font-size: 36px;
+                color: var(--textColor);
+            }
+
+            #info {
+                font-size: 16px;
+                color: var(--randoColor2);
+            }
+
+            .inputs {
+                color: var(--randoColor1);
+                font-weight: 700;
+                text-transform: capitalize;
+            }
+        }
+
+        .stats {
+            background-color: var(--primaryColor);
+            position: absolute;
+            top: 10px;
+            // right: 10px;
+            border: 1px solid #fff;
+            border: none;
+            padding: 3px;
+            min-width: 120px;
+            min-height: 60px;
+
+            h1 {
+                color: var(--textColor);
+                text-align: center;
+                text-transform: uppercase;
+            }
+            
+            p {
+                color: var(--textColor);
+                border-bottom: 1px solid #fff;
+            }
+        }
+        .actionContainer {
+            border-top: 3px solid #fff;
+            display: flex;
+            background-color: var(--primaryColor);
+            align-items: center;
+            min-height: 100px;
+            justify-content: space-evenly;
+
+            .buttons {
+                margin-top: 20px;
+                padding: 10px 20px;
+                color: var(--textColor);
+                background-color: var(--backgroundColor);
+                font-size: 16px;
+                font-weight: 700;
+                border: 1px solid var(--backgroundColor);
+                border-radius: 5px;
+            }
+        }
+    }
+}
+
+.themes {
+    width: 100%;
+    margin-top: 30px;
+    height: 30px;
+    padding: 0 10px;
+    display: flex;
+    gap: 10px;
+    // background-color: rgb(255, 255, 255);
+
+    .themesBtn {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 3px solid #fff;
+    }
+
+    .red {
+         background-color: red;
+    }
+
+    .normal {
+        background-color: var(--backgroundColor);
+    }
+
+    .green {
+        background-color: green;
+    }
+}
+@media (max-width: 650px) {
+    .stats {
+        display: block;
+        margin: 300px 0;
+        width: 100%;
+    }
+
+    p {
+        padding-left: 10px;
+    }
+}

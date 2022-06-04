@@ -1,0 +1,8 @@
+:root {
+    --backgroundColor: #272727;
+    --textColor: #fff;
+    --primaryColor: rgb(255, 13, 41);
+    --secondaryColor: rgb(255, 171, 189);
+    --randoColor1: rgb(255, 0, 60);
+    --randoColor2: rgb(171, 0, 0);
+}
